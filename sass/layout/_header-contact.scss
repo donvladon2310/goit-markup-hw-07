@@ -1,7 +1,7 @@
 .contact {
     display: flex;
     margin-left: auto;  
-    &-link {
+    &__link {
         display: block;
         font-weight: 500;
         font-size: 14px;
@@ -21,7 +21,7 @@
     color:var(--accent-color);
     }
         } 
-        & .item + .item{
+        & .contact__item + .contact__item{
             margin-left: 50px;
             }
             & .item:last-child{
@@ -29,7 +29,7 @@
             }
     }
     
-    .header-icon{
+    .contact__icon{
         fill: currentColor;
         margin-right: 10px;
         align-items: center;  

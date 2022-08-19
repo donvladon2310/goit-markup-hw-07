@@ -14,7 +14,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    &-title {
+    &__title {
       font-weight: 900;
       font-size: 44px;
       line-height: 1.36;
@@ -23,7 +23,7 @@
       text-transform: uppercase;
       color: var(--primary-white-color);
       }
-      &-button {
+      &__button {
       font-weight: 700;
       font-size: 16px;
       line-height: 1.88;

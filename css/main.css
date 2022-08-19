@@ -251,7 +251,7 @@ img {
   margin: -1px;
 }
 
-.heder {
+.header {
   background-color: var(--primary-white-color);
   border-bottom: 1px solid #ECECEC;
 }
@@ -269,11 +269,11 @@ img {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-.logo-web {
+.logo__web {
   color: var(--accent-color);
 }
 
-.nav-list {
+.navigation {
   display: flex;
   font-weight: 500;
   font-size: 14px;
@@ -282,14 +282,14 @@ img {
   color: var(--primary-text-color);
   margin-left: 93px;
 }
-.nav-list .item {
+.navigation .navigation__item {
   margin-right: 50px;
 }
-.nav-list .item:last-child {
+.navigation .navigation__item:last-child {
   margin-right: 0;
 }
 
-.nav-link {
+.navigation__link {
   display: block;
   color: var(--primary-text-color);
   text-decoration: none;
@@ -297,7 +297,7 @@ img {
   padding-bottom: 32px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav-link:hover, .nav-link:focus {
+.navigation__link:hover, .navigation__link:focus {
   color: var(--accent-color);
 }
 
@@ -319,7 +319,7 @@ img {
   display: flex;
   margin-left: auto;
 }
-.contact-link {
+.contact__link {
   display: block;
   font-weight: 500;
   font-size: 14px;
@@ -334,26 +334,26 @@ img {
   align-items: center;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contact-link:hover, .contact-link:focus {
+.contact__link:hover, .contact__link:focus {
   color: var(--accent-color);
 }
-.contact .item + .item {
+.contact .contact__item + .contact__item {
   margin-left: 50px;
 }
 .contact .item:last-child {
   margin-right: 0;
 }
 
-.header-icon {
+.contact__icon {
   fill: currentColor;
   margin-right: 10px;
   align-items: center;
   transition: fill 2500ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-icon:hover {
+.contact__icon:hover {
   fill: var(--accent-color);
 }
-.header-icon:focus {
+.contact__icon:focus {
   fill: var(--accent-color);
 }
 
@@ -370,7 +370,7 @@ img {
   background-position: center;
   background-size: cover;
 }
-.hero-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -379,7 +379,7 @@ img {
   text-transform: uppercase;
   color: var(--primary-white-color);
 }
-.hero-button {
+.hero__button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;

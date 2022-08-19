@@ -1,4 +1,4 @@
-.nav-list {
+.navigation {
     display: flex;
     font-weight: 500;
     font-size: 14px;
@@ -6,7 +6,7 @@
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
     margin-left: 93px;
-    .item {
+    .navigation__item {
         margin-right: 50px;
         &:last-child{
             margin-right: 0;
@@ -15,7 +15,7 @@
     }
     
     
-    .nav-link {
+    .navigation__link {
     display: block;
     color: var(--primary-text-color);
     text-decoration: none;
