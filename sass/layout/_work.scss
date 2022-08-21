@@ -1,16 +1,16 @@
 .work{
     padding-top: 0;
-    &-list{
+    &__list{
         display: flex;
         }
-        &-photo{
+        &__photo{
         margin-right: 30px;
         position: relative;
         &:last-child{
             margin-right: 0;
             }
         }
-        &-title {
+        &__title {
         font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
@@ -20,7 +20,7 @@
         margin-bottom: 50px;
         }
     }
-    .work-img-title{
+    .work__img-title{
     display: flex;
     align-items: center;
     justify-content: center;

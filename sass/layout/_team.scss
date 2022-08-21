@@ -1,9 +1,9 @@
 .team {
     background-color: #F5F4FA;
-    &-list{
+    &__list{
         display: flex;
         }
-        &-link{
+        &__link{
         margin-right: 30px;
         background-color: var(--primary-white-color);  
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2); 
@@ -12,7 +12,7 @@
             margin-right: 0;
             }
         }
-        &-title {
+        &__title {
             font-weight: 700;
             font-size: 36px;
             line-height: 1.16;
@@ -21,7 +21,7 @@
             color: var(--primary-text-color);
             margin-bottom: 50px;
             }
-            &-name {
+            &__name {
             font-weight: 500;
             font-size: 16px;
             line-height: 1.19;
@@ -30,7 +30,7 @@
             color: var(--primary-text-color);
             margin-bottom: 10px;
             }
-            &-text {
+            &__text {
             font-size: 16px;
             line-height: 1.19;
             text-align: center;
@@ -38,7 +38,7 @@
             color: var(--primary-grey-color);
             margin-bottom: 16px;
             }
-            &-soc{
+            &__soc{
                 display: flex;
                 justify-content: center;
                 gap: 10px;
@@ -67,7 +67,7 @@
                     }
                 }
     }
-    .div-name-text{
+    .team__name-text{
     padding-top: 30px;
     padding-bottom: 30px;
     }

@@ -1,10 +1,10 @@
 
           
-    .features-list{
+    .features__list{
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    .item{
+    .-item{
         margin-right: 30px;
         width: 270px;
         &:last-child {
@@ -12,7 +12,7 @@
             }
         }
     } 
-    .features-link {
+    .features__link {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14x;
@@ -22,13 +22,13 @@
     margin-bottom: 10px;
     }
     
-    .features-text {
+    .features__text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--primary-grey-color);
     }
-    .features-icon{
+    .features__icon{
     background: #F5F4FA;
     border-radius: 4px;
     display: flex;

@@ -2,11 +2,13 @@
 
 @import "./components/components";
 @import "./components/modal";
+@import "./components/header-logo";
 
 @import "./utils/hidden";
+@import "./utils/variables";
 
 @import "./layout/header";
-@import "./layout/header-logo";
+
 @import "./layout/header-navigation";
 @import "./layout/header-contact";
 @import "./layout/hero";
