@@ -27,7 +27,7 @@
     color: var(--accent-color);
     }
     }
-    .current{
+    .navigation__link--current{
         position: relative;
         &::after{
             content: '';

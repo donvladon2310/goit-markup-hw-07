@@ -1,10 +1,10 @@
 
           
-    .features__list{
+    .features{
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    .-item{
+    .__item{
         margin-right: 30px;
         width: 270px;
         &:last-child {
@@ -12,7 +12,7 @@
             }
         }
     } 
-    .features__link {
+    .features__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14x;
@@ -28,7 +28,7 @@
     letter-spacing: 0.03em;
     color: var(--primary-grey-color);
     }
-    .features__icon{
+    .features__box{
     background: #F5F4FA;
     border-radius: 4px;
     display: flex;
